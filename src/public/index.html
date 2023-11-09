@@ -7,12 +7,10 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <h2>Formulario de empleados</h2>
-  <form action="http://localhost:3000/empleados" method="post" required>
+  <h2>Formulario de usuarios</h2>
+  <form action="/users" method="post" required>
     <input type="text" name="name" placeholder="ingresar el nombre" required>
-    <input type="text" name="position" placeholder="ingresar el posición" required>
-    <input type="text" name="office" placeholder="ingresar el oficina" required>
-    <input type="number" name="salary" placeholder="ingresar el salario" required>
+    <input type="email" name="email" placeholder="ingresar el correo" required>
 
     <button type="submit">Enviar</button>
   </form>
